@@ -3,6 +3,7 @@
 var Browse = require('../../../models/browse');
 
 module.exports = {
+  auth: false,
   handler: function(request, reply){
     var counties = ['Bradley County','Chester County','Claiborne County','Crockett County','Decatur County','Dekalb County','Fentress County','Grainger County','Hancock County','Houston County','Jefferson County','Johnson County','Macon County','McNairy County','Meigs County County','Morgan County','Obion County','Overton County','Pickett County','Polk County','Rhea County','Stewart County','Union County','Warren County','Wayne County','Weakley County','White County'];
     console.log(request.payload.url);
